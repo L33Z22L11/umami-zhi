@@ -7,6 +7,9 @@ export function Footer() {
       <a href={HOMEPAGE_URL}>
         <b>umami</b> {`v${CURRENT_VERSION}`}
       </a>
+      <a href="https://zhilu.cyou">
+        <b>旨</b> 是 <b>纸鹿</b> 翻译的名称。
+      </a>
     </footer>
   );
 }

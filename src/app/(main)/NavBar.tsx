@@ -36,11 +36,11 @@ export function NavBar() {
       children: [
         ...(teamId
           ? [
-              {
-                label: formatMessage(labels.team),
-                url: renderTeamUrl('/settings/team'),
-              },
-            ]
+            {
+              label: formatMessage(labels.team),
+              url: renderTeamUrl('/settings/team'),
+            },
+          ]
           : []),
         {
           label: formatMessage(labels.websites),
@@ -48,21 +48,21 @@ export function NavBar() {
         },
         ...(!teamId
           ? [
-              {
-                label: formatMessage(labels.teams),
-                url: renderTeamUrl('/settings/teams'),
-              },
-              {
-                label: formatMessage(labels.users),
-                url: '/settings/users',
-              },
-            ]
+            {
+              label: formatMessage(labels.teams),
+              url: renderTeamUrl('/settings/teams'),
+            },
+            {
+              label: formatMessage(labels.users),
+              url: '/settings/users',
+            },
+          ]
           : [
-              {
-                label: formatMessage(labels.members),
-                url: renderTeamUrl('/settings/members'),
-              },
-            ]),
+            {
+              label: formatMessage(labels.members),
+              url: renderTeamUrl('/settings/members'),
+            },
+          ]),
       ],
     },
     {
@@ -84,7 +84,7 @@ export function NavBar() {
         <Icon size="lg">
           <Icons.Logo />
         </Icon>
-        <Text>umami</Text>
+        <Text>旨</Text>
       </div>
       <div className={styles.links}>
         {links.map(({ url, label }) => {

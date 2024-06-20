@@ -10,11 +10,11 @@ export function Header() {
   return (
     <header className={styles.header}>
       <div>
-        <Link href="https://umami.is" target="_blank" className={styles.title}>
+        <Link href="https://github.com/L33Z22L11/umami-zhi" target="_blank" className={styles.title}>
           <Icon size="lg">
             <Icons.Logo />
           </Icon>
-          <Text>umami</Text>
+          <Text>旨</Text>
         </Link>
       </div>
       <div className={styles.buttons}>

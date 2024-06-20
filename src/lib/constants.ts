@@ -8,8 +8,8 @@ export const THEME_CONFIG = 'umami.theme';
 export const DASHBOARD_CONFIG = 'umami.dashboard';
 export const VERSION_CHECK = 'umami.version-check';
 export const SHARE_TOKEN_HEADER = 'x-umami-share-token';
-export const HOMEPAGE_URL = 'https://umami.is';
-export const REPO_URL = 'https://github.com/umami-software/umami';
+export const HOMEPAGE_URL = 'https://zhi.zhilu.cyou';
+export const REPO_URL = 'https://github.com/L33Z22L11/umami-zhi';
 export const UPDATES_URL = 'https://api.umami.is/v1/updates';
 export const TELEMETRY_PIXEL = 'https://i.umami.is/a.png';
 
